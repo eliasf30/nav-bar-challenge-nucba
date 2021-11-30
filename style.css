@@ -142,3 +142,26 @@ img{
     font-size: 22px;
     
 }
+
+
+.button-div{
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+
+}
+
+.button{
+    border-radius:8px;
+    color: white;
+    background-color: rgb(99, 99, 201);
+    margin: 10px;
+    width: 70%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(99, 105, 251);
+
+}
